@@ -1,0 +1,153 @@
+*{
+    box-sizing: border-box;
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    background-size: cover;
+    background-image: url(https://blog.rcky.com.br/wp-content/uploads/2020/11/pizzaria.jpg);
+background-repeat: no-repeat;
+}
+#Pizza{
+    
+    border-radius: 7px;
+    height: 6rem;
+    width: 10rem;
+   
+
+}
+   
+#sobre-nos{
+   
+    background-color: rgb(250, 250, 250);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   
+ }
+a{
+    text-decoration: none;
+}
+div{
+display: flex;
+border: rgb(255, 255, 255) solid 1px;
+flex-direction: column;
+margin: 10px;
+border-radius: 7px;
+background-color: transparent;
+    backdrop-filter: blur(5px);
+}
+label{
+    text-align: center;
+}
+ h2{
+    margin: 30px;
+    text-align: center;
+}
+#principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+nav{
+   display: flex;
+   justify-content: space-around;
+   padding: 22px;
+}
+ul{
+    display: flex;
+}
+li{
+    margin: auto 2px;
+    list-style: none;
+}
+footer{
+    background-color: gray;
+    color: white;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 8px;
+}
+
+
+@media screen and (min-width: 840px) {
+
+    #principal {
+       display: grid;
+       grid-template-columns:  15rem  15rem  15rem  15rem;
+     
+        height: 100vh;
+    }
+li{
+    
+    margin: auto 10px;
+}
+    
+#sobre-nos{
+    height: 300px;
+    background-color: rgb(250, 250, 250);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   
+ }
+ #Divsobre-nos{
+    border: none;
+    background-color: transparent;
+    backdrop-filter: blur(0px);
+    display: flex;
+    width: 470px;
+    height: 300px;
+ }
+ #Divsobre-nos h1,p{
+ 
+ 
+    color: black;
+ }
+
+ #atendente{
+    width: 400px;
+    height: 300px;
+    margin-right: 30px;
+ }
+ 
+div{
+    display: flex;
+    border: rgb(255, 255, 255) solid 1px;
+    flex-direction: column;
+    padding: 10px;
+    width: 200px;
+   height: 200px;
+    margin: 10px;
+    border-radius: 7px;
+
+    }
+    #Pizza{
+        height: 7rem;
+        width: 11rem;
+        border-radius: 7px;
+    
+    }
+    
+footer{
+    background-color: gray;
+    color: white;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 8px;
+}
+h2{
+    margin: 20px;
+  
+}
+
+}
